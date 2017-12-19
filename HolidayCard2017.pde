@@ -17,7 +17,7 @@ void setup() {
   frameRate(60);
 
   for (int i =0; i<500; i++) {
-    snowfall[i]= new snowflake((int)random(0, 1600), (int)random(-900, 0), (int)random(1, 4), (int) random(1, 5));
+    snowfall[i]= new snowflake((int)random(0, 1600), (int)random(0, 900), (int)random(1, 4), (int) random(1, 5));
   }
 
   pineTree= loadImage("PineTree.png");   
