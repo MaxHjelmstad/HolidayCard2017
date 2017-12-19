@@ -26,6 +26,7 @@ void setup() {
 }
 
 void draw() { 
+  textAlign(CENTER);
   background(9, 1, 60);
   fill(255, 0, 0);
   textSize(64);
