@@ -27,7 +27,9 @@ void setup() {
 
 void draw() { 
   background(9, 1, 60);
-
+  fill(255, 0, 0);
+  textSize(64);
+  text("Merry Christmas!", 800, 200);
   fill(245);
   rect(0, 650, 1600, 250);
   //fill(245);
