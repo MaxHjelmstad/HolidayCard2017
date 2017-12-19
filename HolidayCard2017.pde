@@ -1,4 +1,4 @@
-class maxHCard{
+
 PImage pineTree;
 snowflake[]snowfall=new snowflake[500];
 PImage moon;
@@ -93,7 +93,7 @@ void draw() {
     s.snowMovement();
   }
 }
-}
+
 
 class snowflake { 
   private int x;
